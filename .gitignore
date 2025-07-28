@@ -1,6 +1,6 @@
-*.o
-*.ko
-*.mod*
-*.order
-*.symvers
-modules.order
+*.o              → ignores all object files
+*.ko             → ignores kernel object module files
+*.mod*           → ignores all mod-related files (e.g., .mod.c, .mod.o)
+*.order          → ignores generated order files
+*.symvers        → ignores symbol version files
+modules.order    → ignores a specific build artifact
